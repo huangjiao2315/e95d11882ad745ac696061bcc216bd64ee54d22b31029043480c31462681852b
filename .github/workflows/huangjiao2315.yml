@@ -2,7 +2,8 @@ name: huangjiao2315
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
+    - cron: '48 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangjiao2315
         env:
-          js03153: ${{ secrets.js03153 }}
+          pli97663: ${{ secrets.pli97663 }}
         run: |
-          echo $js03153 | jq -r .vicxa989 | /bin/bash
-          echo $hgcq649 | jq -r .vsy30 | /bin/bash
-          echo $kvnc599 | jq -r .k952 | /bin/bash
-          echo $eq7 | jq -r .mi96908 | /bin/bash
-          echo $lwr674 | jq -r .dojx79 | /bin/bash
-          echo $xv234 | jq -r .jfp6946 | /bin/bash
-          echo $cut7667 | jq -r .azsf286 | /bin/bash
-          echo $d69153 | jq -r .c564 | /bin/bash
-          echo $etvr1134 | jq -r .qfo32732 | /bin/bash
-          echo $kgk8 | jq -r .r4 | /bin/bash
-          echo $cfdu533 | jq -r .jm4618 | /bin/bash
-          echo $rx572 | jq -r .xaw1369 | /bin/bash
-          echo $hu05 | jq -r .scdd6307 | /bin/bash
+          echo $pli97663 | jq -r .pe0 | /bin/bash
+          echo $hzxoh96 | jq -r .iu6580 | /bin/bash
+          echo $hef6024 | jq -r .mrw1 | /bin/bash
+          echo $xtj25 | jq -r .xa04061 | /bin/bash
+          echo $qxrf35794 | jq -r .z5929 | /bin/bash
+          echo $lo27700 | jq -r .jn17894 | /bin/bash
+          echo $rr9963 | jq -r .fz82 | /bin/bash
+          echo $rwbkt9 | jq -r .efwd311 | /bin/bash
+          echo $rcyuf180 | jq -r .ayu25 | /bin/bash
+          echo $lgfz9 | jq -r .qjfb491 | /bin/bash
 
